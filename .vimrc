@@ -17,6 +17,12 @@ set incsearch
 set relativenumber
 set cursorline
 
+" Key mappings
+" Remove any existing mapping for spacebar in normal mode
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+nnoremap <Leader>w <C-w>
+
 " Plugins
 call plug#begin('~/.vim/plugged')
 
