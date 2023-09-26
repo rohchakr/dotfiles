@@ -1,0 +1,4 @@
+
+source /usr/local/Homebrew/Library/Taps/now/homebrew-devtools/etc/zshrc
+export PATH=$PATH:"/Users/rohit.chakraborty/Library/Python/3.9/bin"
+export EDITOR="vim"
